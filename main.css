@@ -1,0 +1,275 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+}
+
+body {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.meni {
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 40px;
+    opacity: 0.5;
+}
+
+.ins {
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 20px;
+    opacity: 0.5;
+}
+
+.map {
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 50px;
+    opacity: 0.5;
+}
+
+.nav a:visited:hover{
+          font-size: 40px;
+    color:crimson ;
+    opacity: 1;
+  
+}
+.nav a:hover{
+    opacity: 1;
+}
+
+
+.watch {
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 40px;
+    opacity: 0.5;
+}
+
+.like {
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 50px;
+    opacity: 0.5;
+}
+
+.site {
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 50px;
+    opacity: 0.5;
+}
+
+.plus a:hover {
+    color: crimson;
+    opacity: 1;
+    font-size: 40px;
+
+}
+
+.fist {
+    width: 150px;
+    height: 100px;
+    box-shadow: 15px 15px 6px 0px black;
+    float: left;
+    position: absolute;
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    float: right;
+
+}
+
+.second:hover {
+    width: 120p;
+    height: 120px;
+}
+
+.fist:hover {
+    width: 170px;
+    height: 120px;
+}
+
+.finish {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+
+.insta {
+    width: 40px;
+    padding: 10px;
+}
+
+h1:hover {
+    font-size: 60px;
+    color: aquamarine;
+
+}
+
+
+.nav a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+.plus a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.plus a:visited:hover {
+    color: crimson;
+    opacity: 1;
+    font-size: 60px;
+}
+
+.imgmeni {
+    width: 70%;
+    height: 70%;
+    float: left;
+
+}
+
+.imgmeni:hover {
+    width: 87%;
+    transition: width 6s;
+
+}
+
+.navi {
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+.plus {
+    padding: 10px;
+
+}
+
+.nav {
+    padding: 10px;
+    
+}
+
+.texttod {
+    float: right;
+
+}
+
+.tod {
+    display: flex;
+    padding: 20px;
+}
+
+.tob {
+    display: flex;
+    padding: 20px;
+}
+
+.ton {
+    display: flex;
+    padding: 20px;
+}
+
+.tom {
+    display: flex;
+    padding: 20px;
+}
+
+.none {
+    display: flex;
+    padding: 20px;
+}
+
+.lost {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.imglot {
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+}
+
+.the {
+
+    display: flex;
+}
+
+.night {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.day {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.eve {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.morning {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.farcry {
+    display: flex;
+}
+
+.all {
+    border: 40px double white;
+    background-image: linear-gradient(gold,orange,red);
+}
+
+.oll {
+    border-bottom: 40px dashed white;
+}
+
+.vidio {
+    border-bottom: 40px dotted white;
+}
+
+.music {
+    border-bottom: 20px solid snow;
+    border-right: 20px solid snow;
+    border-left: 20px solid snow;
+    padding: 20px;
+}
+header{
+    background-image: linear-gradient(white,brown,orange);
+}
