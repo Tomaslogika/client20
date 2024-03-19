@@ -10,8 +10,84 @@ body {
     background-repeat: no-repeat;
     color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 20px;
-           background-image: linear-gradient(white,brown,orange);
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    width: calc(100% - 40px);
+}
+
+.header_middle {
+    height: 100px;
+}
+
+#call {
+    width: 16px;
+    height: 16px;
+}
+
+#call_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.my_image {
+    width: 30px;
+    height: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+.keyword-search {
+    width: 100%;
+    max-width: 500px;
+    height: 30px;
+}
+
+.keyword-search__inner {
+    width: 100%;
+}
+
+.keyword-search__form {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.keyword-search__text {
+    display: block;
+    width: calc(100% - 100px);
+    color: #333333;
+    font-size: 16px;
+    line-height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    padding: 0 15px;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.keyword-search__button {
+    width: 100px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #313131;
+    border-radius: 0px 4px 4px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 30px;
 }
 
 p {
@@ -40,13 +116,14 @@ p {
     opacity: 0.5;
 }
 
-.nav a:visited:hover{
-          font-size: 40px;
-    color:crimson ;
+.nav a:visited:hover {
+    font-size: 40px;
+    color: crimson;
     opacity: 1;
-  
+
 }
-.nav a:hover{
+
+.nav a:hover {
     opacity: 1;
 }
 
@@ -169,7 +246,7 @@ h1:hover {
 
 .nav {
     padding: 10px;
-    
+
 }
 
 .texttod {
@@ -254,7 +331,7 @@ h1:hover {
 
 .all {
     border: 40px double white;
-    background-image: linear-gradient(gold,orange,red);
+    background-image: linear-gradient(gold, orange, red);
 }
 
 .oll {
@@ -270,7 +347,4 @@ h1:hover {
     border-right: 20px solid snow;
     border-left: 20px solid snow;
     padding: 20px;
-}
-header{
-    background-image: linear-gradient(white,brown,orange);
 }
